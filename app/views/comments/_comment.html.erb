@@ -11,9 +11,11 @@
   <%= comment.body %>
 </p>
 <p>
+<%if comment.user === nil%>
 <%if current_user.admin? || current_user === comment.user%>
   <%= link_to 'Destroy Comment', [comment.article, comment],
               method: :delete,
               data: { confirm: "Are you sure?" } %>
               <%end%>
 </p>
+<%end%>
