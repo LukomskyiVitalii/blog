@@ -1,24 +1,13 @@
-# README
+- getting started - 5
+- автентифікація різними користувачами - 2
+- авторизація (перевірка дозволу виконання дій юзером) - 3 (режим адміністратора ще +1)
+- пагінація - 2
+- розгортання на heroku - 3
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+https://blooming-depths-96700.herokuapp.com/
 
-Things you may want to cover:
+В сумі  16 балів.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Дані адміна
+Email:admin@example.com
+Password:password
