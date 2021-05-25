@@ -4,3 +4,5 @@
 <% if current_user.id == @user.id %>
     <%= link_to "Edit", edit_user_path(current_user) %>
 <%end%>
+<br>
+<%= link_to "Cancel", root_path %>
